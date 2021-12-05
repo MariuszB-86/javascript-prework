@@ -26,7 +26,7 @@ function displayResult(argComputerMove, argPlayerMove){
         return 'Przegrywasz!';
     }else if(argComputerMove == argPlayerMove){
         return 'Jest remis!';
-    }else if(argPlayerMove != 'kamień' && 'papier' && 'nożyce'){
+    }else {
         return 'Podałeś nieprawidłową wartość. Wpisz liczbę od 1 do 3.';
     }
 }
